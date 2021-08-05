@@ -1,0 +1,97 @@
+.body-container {
+    width: 1045px;
+    height: 565px;
+    display: flex;
+    flex-direction: column;
+    margin: 200px 260px 64px 165px;
+
+    &__heading {
+        width: 255px;
+        height: 32px;
+        display: flex;
+        position: top;
+        font-size: 24px;
+        font-weight: 900px;
+        color: #83888f;
+        line-height: 32px;
+        font-style: normal;
+        font-family: "Fraunces", sans-serif;
+    }
+
+    &__first-list {
+        width: 1045px;
+        height: 2px;
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        justify-content: space-between;
+        
+
+        &__item {
+            width: 31px;
+            height: 31px;
+            border-radius: 50%;
+            margin-top: 80px;
+            border: 2px solid #0e8784;
+            background-color: #ffffff;
+    
+            &__d::before {
+                content: "";
+                display: inline-block;
+                position: relative;
+                left: 29px;
+                width: 456px;
+                height: 2px;background-color: #fdd6ba;
+            }
+        }
+    }
+
+    &__list {
+        width: 1045px;
+        height: 565px;
+        display: flex;
+        margin-top: 80px;
+        margin-bottom: 64px;
+        align-items: center;
+        list-style-type: none;
+        justify-content: space-between;
+    }
+
+    &__item {
+        width: 285px;
+        height: 355px;
+        margin-top: 82px;
+        margin-right: 95px;
+    }
+
+    &__image {
+        width: 90px;
+        height: 70px;
+        margin-bottom: 38px;
+    }
+
+    &__mini-heading {
+        width: 255px;
+        height: 73px;
+        font-size: 32px;
+        font-weight: 900;
+        color: #333d4b;
+        line-height: 36px;
+        font-style: normal;
+        margin-bottom: 42px;
+        padding-right: 30px;
+        font-family: "Fraunces", sans-serif;
+    }
+
+
+    &__text {
+        width: 285px;
+        height: 130px;
+        font-size: 16px;
+        color: #333d4b;
+        line-height: 26px;
+        font-style: normal;
+        font-weight: normal;
+        font-family: "Barlow", sans-serif;
+    }
+}

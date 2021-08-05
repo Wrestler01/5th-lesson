@@ -1,0 +1,24 @@
+.father-link {
+    width: 1045px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    position: relative;
+
+    &__child__link {
+        width: 155px;
+        height: 25px;
+        font-size: 18px;
+        color: #fefcf7;
+        font-weight: 900;
+        line-height: 25px;
+        text-align: center;
+        font-style: normal;
+        padding: 16px 31px;
+        border-radius: 5px;
+        text-decoration: none;
+        background-color: #0e8784;
+        font-family: "Fraunces", sans-serif;
+    }
+}
